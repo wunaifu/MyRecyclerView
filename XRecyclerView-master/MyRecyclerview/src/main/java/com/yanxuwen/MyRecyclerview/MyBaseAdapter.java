@@ -265,9 +265,9 @@ public class MyBaseAdapter extends RecyclerView.Adapter<MyBaseAdapter.BaseViewHo
                 holder.getExpandView().collapse(false);
             }
         }
-        if(map_animate.size()>mDataSet.size()){
-            map_animate.clear();
-        }
+//        if(map_animate.size()>mDataSet.size()){
+//            map_animate.clear();
+//        }
         //显示动画
         if (isAnimate&&(map_animate.get(adapterPosition)==null||!map_animate.get(adapterPosition))) {
             holder.itemView.setTag(true);

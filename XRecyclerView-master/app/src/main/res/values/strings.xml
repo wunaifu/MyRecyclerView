@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">XRecyclerView</string>
+    <string name="app_name">列表例子</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
